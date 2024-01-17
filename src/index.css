@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  /* border: 3px solid ; */
+}
+
+/* Sampul Start */
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container-sampul{
+  background-image: url(./assets/background_kertas.png);
+  background-repeat: repeat;
+}
+/* Sampul end */
