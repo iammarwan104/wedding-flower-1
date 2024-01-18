@@ -36,22 +36,17 @@ export default function RootSampul() {
         <div>
           <p className="font-Tenor-Sans text-xs md:text-base tracking-[.2rem]">Please join us for</p>
           <p className="font-MonteCarlo text-2xl md:text-4xl">The Wedding of</p>
-
           <h1 className="font-Arapey text-[1.8rem] md:text-[3rem] tracking-[.8rem] leading-10 mt-4">GEORGIANA</h1>
           <h3 className="font-Arapey text-[.8rem] md:text-[1rem] tracking-[.8rem] mb-2">GRACE BROWN</h3>
-
           <p className="font-MonteCarlo text-2xl md:text-4xl">and</p>
-
           <h1 className="font-Arapey text-[1.8rem] md:text-[3rem]  tracking-[.8rem] leading-10 mt-4">CRISHTOPHER</h1>
           <h3 className="font-Arapey text-[.8rem] md:text-[1rem] tracking-[.8rem] mb-4">KEITH JENNINGS </h3>
-
           <p className="font-Tenor-Sans text-xs md:text-base tracking-[.2rem]">saturday the Twenty Sixih of August</p>
           <p className="font-Tenor-Sans text-xs md:text-base tracking-[.2rem]">Two Thousand and Twenty</p>
           <p className="font-Tenor-Sans text-xs md:text-base tracking-[.2rem]">at one o'clock in the afternoon</p>
           <p className="font-Tenor-Sans text-xs md:text-base tracking-[.2rem]">Gorse Hill, Surrey</p>
           <h3 className="font-MonteCarlo text-2xl md:text-4xl">reception to follow</h3>
           <button onClick={()=> setOpenUndangan(true)} type="button" class="text-white mt-8 bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm md:text-lg px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900">Buka Undangan</button>
-
         </div>
       </div>
       <motion.div
